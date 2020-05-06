@@ -1,0 +1,13 @@
+<div class="emp-list">
+    <div>
+        <span>{{employeeList.length}} Results found</span>
+        <input type="checkbox" (change) = "onCheck($event)" /> show only Bangalore employees
+    </div>
+    <!-- <div *ngFor="let employee of employeeList">
+        <app-employee-card *ngFor="let employee of employeeList" [employee]="employee"></app-employee-card>
+    </div> -->
+    
+    <div class="container">
+        <app-employee-card class="item" *ngFor="let employee of employeeList" [employee]="employee"></app-employee-card>
+    </div>
+</div>

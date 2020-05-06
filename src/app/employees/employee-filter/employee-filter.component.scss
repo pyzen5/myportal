@@ -1,0 +1,27 @@
+.filter-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    // display: inline-block;
+    border-right-style: ridge;
+    border-right-color: lightgray;
+    border-right-width: 7px;
+}
+
+.filter-item {
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    p {
+        margin: 0;
+    }
+    select {
+        width: 100%;
+        border: 0;
+    }
+}
+
+.filter-btn {
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,14 @@
+.emp-list {
+    background-color: #f1f6f9;
+}
+.container {
+    display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.item {
+    // order: 5;
+    // flex-grow: 1;
+}

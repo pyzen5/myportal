@@ -1,0 +1,50 @@
+<div class="filter-container">
+    <div class="filter-item">
+        <p>Department</p>
+        <select [(ngModel)]="filterObj.department">
+            <option>Front End Development</option>
+        </select>
+    </div>
+    <div class="filter-item">
+        <p>Roll Type</p>
+        <select [(ngModel)]="filterObj.rollType">
+            <option>Full Time</option>
+            <option>Part Time</option>
+        </select>
+    </div>
+    <div class="filter-item">
+        <p>Designation</p>
+        <select [(ngModel)]="filterObj.designation">
+            <option>Senior UI Developer</option>
+        </select>
+    </div>
+    <div class="filter-item">
+        <p>Experience</p>
+        <select [(ngModel)]="filterObj.experience">
+            <option>5 years above</option>
+        </select>
+    </div>
+    <div class="filter-item">
+        <p>Year of Joining</p>
+        <select [(ngModel)]="filterObj.doj">
+            <option>2017</option>
+        </select>
+    </div>
+    <div class="filter-item">
+        <p>Location</p>
+        <select [(ngModel)]="filterObj.location">
+            <option>Bangalore</option>
+        </select>
+    </div>
+    <div class="filter-item">
+        <p>Team</p>
+        <select [(ngModel)]="filterObj.team">
+            <option>OCBC Singapore</option>
+        </select>
+    </div>
+    <div class="filter-btn">
+        <button (click)="clearFilter()">Clear</button>
+        <button (click)="getFilterData()">Submit</button>
+    </div>
+</div>
+
